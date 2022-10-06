@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('../fonts/font-web/BeVietnamPro-Bold.woff2') format('woff2'),
+        url('../fonts/font-web/BeVietnamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('../fonts/font-web/BeVietnamPro-Light.woff2') format('woff2'),
+        url('../fonts/font-web/BeVietnamPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('../fonts/font-web/BeVietnamPro-Regular.woff2') format('woff2'),
+        url('../fonts/font-web/BeVietnamPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('../fonts/font-web/BeVietnamPro-Italic.woff2') format('woff2'),
+        url('../fonts/font-web/BeVietnamPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chakra Petch';
+    src: url('../fonts/font-web/ChakraPetch-Light.woff2') format('woff2'),
+        url('../fonts/font-web/ChakraPetch-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chakra Petch';
+    src: url('ChakraPetch-Bold.woff2') format('woff2'),
+        url('ChakraPetch-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/font-web/Montserrat-Thin.woff2') format('woff2'),
+        url('../fonts/font-web/Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/font-web/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/font-web/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$cl-white: #fff;
+$cl-black: #000;
+$cl-yellow: #E3CA83;
+$cl-blue: #258BD3;
+$cl-blue-bold: #1176BC;
+$cl-green: #029E48;
+$cl-gray: #555555;
+$cl-text: #757575;
+$font-body: 'Be Vietnam Pro';
+$font-heading: 'Chakra Petch';
+.ff-heading{
+	font-family: $font-heading;
+	font-weight: bold;
+}
+.ff-body-title{
+    font-family: 'Be Vietnam Pro';
+    font-weight: bold;
+}
+.ff-sub_heading{
+	font-family: $font-heading;
+}
+.ff-mon{
+    font-family: 'Montserrat';
+}
+.fs-12{
+	font-size: 12px;
+}
+.fs-14{
+	font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-18{
+	font-size: 18px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-35{
+	font-size: 35px;
+}
+.fs-40{
+	font-size: 40px;
+}
+.fs-50{
+	font-size: 50px;
+}
+.fs-60{
+	font-size: 60px;
+}
+.fs-70{
+    font-size: 70px;
+}
+.fs-80{
+	font-size: 80px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-24{
+	font-size: 24px;
+}
+.fs-16{
+	font-size: 16px;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-12{
+	font-size: 12px;
+}
+.cl-white{
+	color: $cl-white;
+}
+.cl-yellow{
+	color: $cl-yellow;
+}
+.pt-200{
+	padding-top: 200px;
+}
+.pb-100{
+	padding-bottom: 100px;
+}
+.pt-100{
+	padding-top: 100px;
+}
+.pt-250{
+	padding-top: 250px;
+}
+.pb-50{
+	padding-bottom: 50px;
+}
+.spin_circle {
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+.cl-blue{
+    color: $cl-blue;
+}
+.cl-green{
+    color: $cl-green;
+}
+.cl-gray{
+    color: $cl-gray;
+}
+.cl-blue-bold{
+    color: $cl-blue-bold;
+}
+.cl-text{
+    color: $cl-text;
+}
